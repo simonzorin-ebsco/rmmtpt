@@ -20,7 +20,7 @@ for arg in "$@"
 do
   echo "Arg #$index = $arg"
   let "index+=1"
-  sed -i -e "/\/${arg}/d" ~/Documents/Scripts/fstabtest
+  sed -i -e "/\/${arg}/d" /etc/fstab
   umount $arg
 done            
 
