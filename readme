@@ -2,6 +2,8 @@ rmmtpt - handy tool which takes n number of filepaths as arguments and removes t
 
 Usage: rmmtpt filepath1 filepath2 etc.
 
+Forward slashes are included in the pattern match and are escaped. The only part of the filepath required is the sharename or the dirname. 
+
 Installation instructions:
 
 1. Clone or download the repository
