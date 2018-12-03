@@ -1,0 +1,10 @@
+rmmtpt - handy tool which takes n number of filepaths as arguments and removes the mountpoint from /etc/fstab and unmounts the directory
+
+Usage: rmmtpt filepath1 filepath2 etc.
+
+Installation instructions:
+
+1. Clone or download the repository
+2. Move the file to /usr/bin
+3. Run chmod +x /usr/bin/rmmtpt to make the file executable
+4. Test the command by running 'rmmtpt'. The output should be: Usage: rmmtpt filepath1 filepath2 etc.
